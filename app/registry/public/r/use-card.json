@@ -1,0 +1,10 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "use-card",
+  "type": "registry:example",
+  "registryDependencies": [
+    "button",
+    "https://baidu.com/card.json",
+    "label"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry.json",
+  "name": "shadcn-vue-registry-template",
+  "homepage": "https://github.com/lonewolfyx",
+  "items": [
+    {
+      "name": "collapsible",
+      "type": "registry:ui",
+      "items": [
+        {
+          "path": "ui/collapsible/index.ts",
+          "type": "registry:ui"
+        },
+        {
+          "path": "ui/collapsible/CollapsibleTrigger.vue",
+          "type": "registry:ui"
+        },
+        {
+          "path": "ui/collapsible/CollapsibleContent.vue",
+          "type": "registry:ui"
+        },
+        {
+          "path": "ui/collapsible/Collapsible.vue",
+          "type": "registry:ui"
+        }
+      ],
+      "dependencies": [
+        "reka-ui"
+      ]
+    },
+    {
+      "name": "card",
+      "type": "registry:ui",
+      "items": [
+        {
+          "path": "ui/card/index.ts",
+          "type": "registry:ui"
+        },
+        {
+          "path": "ui/card/CardTitle.vue",
+          "type": "registry:ui"
+        },
+        {
+          "path": "ui/card/CardHeader.vue",
+          "type": "registry:ui"
+        },
+        {
+          "path": "ui/card/CardFooter.vue",
+          "type": "registry:ui"
+        },
+        {
+          "path": "ui/card/CardDescription.vue",
+          "type": "registry:ui"
+        },
+        {
+          "path": "ui/card/CardContent.vue",
+          "type": "registry:ui"
+        },
+        {
+          "path": "ui/card/CardAction.vue",
+          "type": "registry:ui"
+        },
+        {
+          "path": "ui/card/Card.vue",
+          "type": "registry:ui"
+        }
+      ],
+      "dependencies": [
+        "vue"
+      ]
+    },
+    {
+      "name": "use-card",
+      "type": "registry:example",
+      "items": [
+        {
+          "path": "example/use-card/index.ts",
+          "type": "registry:example"
+        },
+        {
+          "path": "example/use-card/UseCard.vue",
+          "type": "registry:example"
+        }
+      ],
+      "registryDependencies": [
+        "button",
+        "https://baidu.com/card.json",
+        "label"
+      ]
+    },
+    {
+      "name": "hello-world",
+      "type": "registry:block",
+      "items": [
+        {
+          "path": "blocks/hello-world/index.ts",
+          "type": "registry:block"
+        },
+        {
+          "path": "blocks/hello-world/HelloWorld.vue",
+          "type": "registry:block"
+        },
+        {
+          "path": "blocks/hello-world/components/OpenV0Link.vue",
+          "type": "registry:component"
+        }
+      ]
+    }
+  ]
+}
